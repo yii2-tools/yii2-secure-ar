@@ -1,0 +1,30 @@
+{
+    "name": "yii2-tools/yii2-secure-ar",
+    "description": "Secure Active Record for Yii2 Applications",
+    "keywords": [
+        "yii2",
+        "yii2-tools",
+        "extension",
+        "active record"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/yii2-tools/yii2-secure-ar",
+    "authors": [
+        {
+            "name": "Pavel Petrov",
+            "email": "itnelo@gmail.com",
+            "homepage": "https://github.com/itnelo",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yii2-tools/yii2-base": "^1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii\\tools\\secure\\": ""
+        }
+    }
+}
